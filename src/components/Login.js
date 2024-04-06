@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
-import Side from "./Side";
 import { useNavigate } from "react-router-dom";
 import { NavLink } from "react-router-dom";
 import { ToastContainer, toast } from "react-toastify";
@@ -76,13 +75,13 @@ const Login = () => {
   };
 
   return (
-    <div style={{backgroundColor:"#F8F6E3", height:"100vh"}}>
+    <div className="d-flex justify-content-center" style={{backgroundColor:"#F8F6E3", height:"100vh"}}>
       <div className="container p-3">
         <section className="d-flex justify-content-between">
-          <div className="left_data mt-3 p-3" style={{ width: "100%",backgroundColor:"#71C9CE",boxShadow: "1px 1px 5px 19px rgba(0, 0, 0, 0.2)" }}>
+          <div className="left_data mt-3 p-3" style={{ width: "100vh",backgroundColor:"#71C9CE",boxShadow: "1px 1px 5px 19px rgba(0, 0, 0, 0.2)" }}>
             <h3 className="text-center col-lg-6">Sign IN</h3>
             <Form>
-              <Form.Group className="mb-3 col-lg-6" controlId="formBasicEmail">
+              <Form.Group className="mb-3 col-lg-8" controlId="formBasicEmail">
                 <Form.Control
                   type="email"
                   name="email"
@@ -92,7 +91,7 @@ const Login = () => {
               </Form.Group>
 
               <Form.Group
-                className="mb-3 col-lg-6"
+                className="mb-3 col-lg-8"
                 controlId="formBasicPassword"
               >
                 <Form.Control
@@ -104,7 +103,7 @@ const Login = () => {
               </Form.Group>
               <Button
                 variant="primary"
-                className="col-lg-6"
+                className="col-lg-8"
                 onClick={addData}
                 style={{ background: "rgb(67, 185, 127)" }}
                 type="submit"
@@ -119,7 +118,6 @@ const Login = () => {
               </span>{" "}
             </p>
           </div>
-          <Side />
         </section>
         <ToastContainer />
       </div>
