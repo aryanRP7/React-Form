@@ -115,7 +115,7 @@ const Login = () => {
             <p className="mt-3">
               Don't have an account yet?{" "}
               <span>
-                <NavLink to="/">SignUp</NavLink>
+                <NavLink to="/React-Forms">SignUp</NavLink>
               </span>{" "}
             </p>
           </div>
