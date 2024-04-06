@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.81eec848.css",
-    "main.js": "/static/js/main.d1192e00.js",
-    "static/media/Brazil.png": "/static/media/Brazil.2f12aeed6cab89d1210b.png",
-    "static/media/Egypt.png": "/static/media/Egypt.76a5d4c085b0eacce846.png",
-    "static/media/India.png": "/static/media/India.85a4da29cf7056e17a8d.png",
-    "static/media/Ethiopia.png": "/static/media/Ethiopia.1d9f94aae3baf80e9378.png",
-    "static/media/China.svg.webp": "/static/media/China.svg.e071df660814e92b3f9c.webp",
-    "static/media/Iran.svg": "/static/media/Iran.4c6f626dadb69089cd7632c4dbc736a6.svg",
-    "index.html": "/index.html",
-    "main.81eec848.css.map": "/static/css/main.81eec848.css.map",
-    "main.d1192e00.js.map": "/static/js/main.d1192e00.js.map"
+    "main.css": "/React-Forms/static/css/main.81eec848.css",
+    "main.js": "/React-Forms/static/js/main.7298da1a.js",
+    "static/media/Brazil.png": "/React-Forms/static/media/Brazil.2f12aeed6cab89d1210b.png",
+    "static/media/Egypt.png": "/React-Forms/static/media/Egypt.76a5d4c085b0eacce846.png",
+    "static/media/India.png": "/React-Forms/static/media/India.85a4da29cf7056e17a8d.png",
+    "static/media/Ethiopia.png": "/React-Forms/static/media/Ethiopia.1d9f94aae3baf80e9378.png",
+    "static/media/China.svg.webp": "/React-Forms/static/media/China.svg.e071df660814e92b3f9c.webp",
+    "static/media/Iran.svg": "/React-Forms/static/media/Iran.4c6f626dadb69089cd7632c4dbc736a6.svg",
+    "index.html": "/React-Forms/index.html",
+    "main.81eec848.css.map": "/React-Forms/static/css/main.81eec848.css.map",
+    "main.7298da1a.js.map": "/React-Forms/static/js/main.7298da1a.js.map"
   },
   "entrypoints": [
     "static/css/main.81eec848.css",
-    "static/js/main.d1192e00.js"
+    "static/js/main.7298da1a.js"
   ]
 }
