@@ -49,7 +49,7 @@ const Details = () => {
                 <td>
                   <img
                     style={{ width: "55px", height: "30px" }}
-                    src="./Assets/Brazil.png"
+                    src="./React-Form/Assets/Brazil.png"
                     alt="Iran"
                   ></img>
                 </td>
@@ -61,7 +61,7 @@ const Details = () => {
                 <td>
                   <img
                     style={{ width: "55px", height: "30px" }}
-                    src="./Assets/Russia.png"
+                    src="./React-Form/Assets/Russia.png"
                     alt="Russia"
                   ></img>
                 </td>
@@ -73,7 +73,7 @@ const Details = () => {
                 <td>
                   <img
                     style={{ width: "55px", height: "30px" }}
-                    src="./Assets/India.png"
+                    src="./React-Form/Assets/India.png"
                     alt="India"
                   ></img>
                 </td>
@@ -85,7 +85,7 @@ const Details = () => {
                 <td>
                   <img
                     style={{ width: "55px", height: "30px" }}
-                    src="./Assets/China.svg.webp"
+                    src="./React-Form/Assets/China.svg.webp"
                     alt="China"
                   ></img>
                 </td>
@@ -97,7 +97,7 @@ const Details = () => {
                 <td>
                   <img
                     style={{ width: "55px", height: "30px" }}
-                    src="./Assets/SouthAfrica.png"
+                    src="./React-Form/Assets/SouthAfrica.png"
                     alt="SouthAfrica"
                   ></img>
                 </td>
@@ -109,7 +109,7 @@ const Details = () => {
                 <td>
                   <img
                     style={{ width: "55px", height: "30px" }}
-                    src="./Assets/Egypt.png"
+                    src="./React-Form/Assets/Egypt.png"
                     alt="Egypt"
                   ></img>
                 </td>
@@ -121,7 +121,7 @@ const Details = () => {
                 <td>
                   <img
                     style={{ width: "55px", height: "30px" }}
-                    src="./Assets/Ethiopia.png"
+                    src="./React-Form/Assets/Ethiopia.png"
                     alt="Ethiopia"
                   ></img>
                 </td>
@@ -133,7 +133,7 @@ const Details = () => {
                 <td>
                   <img
                     style={{ width: "55px", height: "30px" }}
-                    src="./Assets/Iran.svg"
+                    src="./React-Form/Assets/Iran.svg"
                     alt="Iran"
                   ></img>
                 </td>
@@ -145,7 +145,7 @@ const Details = () => {
                 <td>
                   <img
                     style={{ width: "55px", height: "30px" }}
-                    src="./Assets/UAE.png"
+                    src="./React-Form/Assets/UAE.png"
                     alt="United Arab Emirates"
                   ></img>
                 </td>
