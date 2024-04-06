@@ -28,7 +28,7 @@ const Details = () => {
 
   const userlogout = () => {
     localStorage.removeItem("user_login");
-    navigate("/");
+    navigate("/React-Forms");
   };
 
   useEffect(() => {

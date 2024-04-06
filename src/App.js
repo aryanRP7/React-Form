@@ -10,7 +10,7 @@ function App() {
   return (
   <>
     <Routes>
-      <Route path='/' element={<Home />} />
+      <Route path='/React-Forms' element={<Home />} />
       <Route path='/login' element={<Login />} />
       <Route path='/details' element={<Details />} />
       <Route path='/*' element={<Errror />} />
