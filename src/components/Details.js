@@ -1,11 +1,20 @@
 import React, { useEffect, useState } from "react";
 import Footer from './Footer';
-
 import Errror from "./Errror";
 import Table from "react-bootstrap/Table";
 import Button from "react-bootstrap/Button";
 import { useNavigate } from "react-router-dom";
-
+// importing images/png
+import Brazil from "./Assets/Brazil.png"
+import Russia from "./Assets/Russia.png"
+import India from "./Assets/India.png"
+import China from "./Assets/China.svg.webp"
+import SouthAfrica from "./Assets/SouthAfrica.png"
+import Egypt from "./Assets/Egypt.png"
+import Ethiopia from "./Assets/Ethiopia.png"
+import Iran from "./Assets/Iran.svg"
+import UAE from "./Assets/UAE.png"
+// importing finished
 const Details = () => {
   const [logindata, setLoginData] = useState([]);
   const navigate = useNavigate();
@@ -49,7 +58,7 @@ const Details = () => {
                 <td>
                   <img
                     style={{ width: "55px", height: "30px" }}
-                    src="./React-Form/Assets/Brazil.png"
+                    src={Brazil}
                     alt="Iran"
                   ></img>
                 </td>
@@ -61,7 +70,7 @@ const Details = () => {
                 <td>
                   <img
                     style={{ width: "55px", height: "30px" }}
-                    src="./React-Form/Assets/Russia.png"
+                    src={Russia}
                     alt="Russia"
                   ></img>
                 </td>
@@ -73,7 +82,7 @@ const Details = () => {
                 <td>
                   <img
                     style={{ width: "55px", height: "30px" }}
-                    src="./React-Form/Assets/India.png"
+                    src={India}
                     alt="India"
                   ></img>
                 </td>
@@ -85,7 +94,7 @@ const Details = () => {
                 <td>
                   <img
                     style={{ width: "55px", height: "30px" }}
-                    src="./React-Form/Assets/China.svg.webp"
+                    src={China}
                     alt="China"
                   ></img>
                 </td>
@@ -97,7 +106,7 @@ const Details = () => {
                 <td>
                   <img
                     style={{ width: "55px", height: "30px" }}
-                    src="./React-Form/Assets/SouthAfrica.png"
+                    src={SouthAfrica}
                     alt="SouthAfrica"
                   ></img>
                 </td>
@@ -109,7 +118,7 @@ const Details = () => {
                 <td>
                   <img
                     style={{ width: "55px", height: "30px" }}
-                    src="./React-Form/Assets/Egypt.png"
+                    src={Egypt}
                     alt="Egypt"
                   ></img>
                 </td>
@@ -121,7 +130,7 @@ const Details = () => {
                 <td>
                   <img
                     style={{ width: "55px", height: "30px" }}
-                    src="./React-Form/Assets/Ethiopia.png"
+                    src={Ethiopia}
                     alt="Ethiopia"
                   ></img>
                 </td>
@@ -133,7 +142,7 @@ const Details = () => {
                 <td>
                   <img
                     style={{ width: "55px", height: "30px" }}
-                    src="./React-Form/Assets/Iran.svg"
+                    src={Iran}
                     alt="Iran"
                   ></img>
                 </td>
@@ -145,7 +154,7 @@ const Details = () => {
                 <td>
                   <img
                     style={{ width: "55px", height: "30px" }}
-                    src="./React-Form/Assets/UAE.png"
+                    src={UAE}
                     alt="United Arab Emirates"
                   ></img>
                 </td>
